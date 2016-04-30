@@ -236,6 +236,10 @@
         "source": "C:\\Users\\ItzDrePeng\\AndroidStudioProjects\\austin-feeds-me\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\ItzDrePeng\\AndroidStudioProjects\\austin-feeds-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\drawer_shadow.9.png",
+        "source": "C:\\Users\\ItzDrePeng\\AndroidStudioProjects\\austin-feeds-me\\app\\src\\main\\res\\drawable-xxhdpi\\drawer_shadow.9.png"
+    },
+    {
         "merged": "C:\\Users\\ItzDrePeng\\AndroidStudioProjects\\austin-feeds-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png",
         "source": "C:\\Users\\ItzDrePeng\\AndroidStudioProjects\\austin-feeds-me\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },

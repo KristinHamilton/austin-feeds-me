@@ -72,6 +72,10 @@
         "source": "C:\\Users\\ItzDrePeng\\AndroidStudioProjects\\austin-feeds-me\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "C:\\Users\\ItzDrePeng\\AndroidStudioProjects\\austin-feeds-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pizza.png",
+        "source": "C:\\Users\\ItzDrePeng\\AndroidStudioProjects\\austin-feeds-me\\app\\src\\main\\res\\drawable\\pizza.png"
+    },
+    {
         "merged": "C:\\Users\\ItzDrePeng\\AndroidStudioProjects\\austin-feeds-me\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\or_line.xml",
         "source": "C:\\Users\\ItzDrePeng\\AndroidStudioProjects\\austin-feeds-me\\app\\build\\intermediates\\exploded-aar\\com.firebaseui\\firebase-ui\\0.3.1\\res\\drawable\\or_line.xml"
     },
