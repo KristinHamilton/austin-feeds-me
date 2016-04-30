@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\beta\1.1.4\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-beta-1.1.4_160ca775235e4787ca62535ee10508a3460fbbfa\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_4cbf6a9e9829f49b9346bb44863efabaa35bb40b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_b7a6dc46d93756487967e346c0a4ee2c9e6df852\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_118cc8722d57a6b65949c8192c114fd2786970c4\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.3.0_10b1c7a3d33240b3c90f5e3ac882615dfc27c67e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\io.fabric.sdk.android\fabric\1.3.10\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.fabric.sdk.android-fabric-1.3.10_ac0c29c911011b70036124201daa2f062737335f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a19cf1c612584ee5ef12f929eb5fad15dd4aa8ac">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b23ff57f18adb0160b804a1b8ab5a5b96475749c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.3.0_8f2b904bbf6e7e91cda81cf4d929f2e8c639958a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.3.0_09b9f2f411cd826c428afc794f3e7fc88c3f7d21\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_c1f93527c50e63bbdcacaffb95cd83ad1e0e0f58\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics\2.5.5\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-2.5.5_e78ab4cbb0e02d69d8027cdbc633243eef87a41c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.3.0_73a933a34266610417aadcd154a035e7cbfca828\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.3.0_04907537c5806f0fac082832ecca2a1ac3216694\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.3.0_c6759da840f9eb946d97a7057ce987e11202ae1a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.12\6ec0bbd3e161a73ed672284b587fd32309a86d7a\tubesock-0.0.12.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.12_bac19dd20505e13ab7d3571c2991852396ebd70e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.8\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-core-2.3.8_a10e7919d30b8e69e67541de685a85b2f61f4e26\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.5.2\f19f10d6276aa0b380e2d05d2ab3272d693a5433\firebase-client-android-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.5.2_dd38a1dfb16add38dc0714c4f546fae35f74c5e7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.6\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-1.3.6_3af8de2e889a321dd593714130b4f180a778b6ab\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="fd76d95678a6b2b8a49bb8a9fb5bcef7aedb70e7">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-8.3.0_24a443c135ca388b45f2a5e7dc15b217e9cd90cf\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\libs\Parse-1.7.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="87c45f9f66da531a65f065ee32f603c7e6db1528">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\2\Parse-1.7.1_a41319e53681f8a13c979c37bd36e4c45c28bb06\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.3.0_ffc7f692674f2562921167723aeb57b9babe944f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.3.0_8cb9f57e89ba704b3e845fdcde18243e3a149c11\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\.gradle\caches\modules-2\files-2.1\org.twitter4j\twitter4j-core\4.0.2\6555e7c45f5db0006823731b2ddb536d481e11d1\twitter4j-core-4.0.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6555e7c45f5db0006823731b2ddb536d481e11d1">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\twitter4j-core-4.0.2_e36d05be28080be12b2cbf761e49dfe963277527\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui\0.3.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5f34a8aeb0eaaa2d69752d56102a8c808117058e">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-0.3.1_5953b797bbf1bf68c1a5a1403d9ddfa32370341f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\libs\bolts-android-1.1.3.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e61e3dfc57eaa5c97f9e7061db5608fc7d02d39e">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\2\bolts-android-1.1.3_07f9d7af42936cd9a66a5af0a96324715542bcc8\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.5.2\91731b8f5868a3e8a8a773f29b8d06b5c358f5bb\firebase-client-jvm-2.5.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.5.2_937955143223f7c804828c1b03088049f515110d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="545141434745a46b9c0b53a71b8240b55cb9ecb3">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_debf03589be44a8fba54fe8096f2f814e71c8791\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\ItzDrePeng\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\ItzDrePeng\AndroidStudioProjects\austin-feeds-me\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_a3349f1974a2bfe5c43860905ea1b35dff0b57a8\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.utfeedsme"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.example.utfeedsme.AustinFeedsMeApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name="com.example.utfeedsme.SplashScreen"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.utfeedsme.StartScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.utfeedsme.STARTSCREEN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.utfeedsme.HappeningNow"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.utfeedsme.HAPPENINGNOW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.utfeedsme.NearYou"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.utfeedsme.NEARYOU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.utfeedsme.AllEvents"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.utfeedsme.ALLEVENTS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.utfeedsme.AddEvent"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.utfeedsme.ADDEVENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.utfeedsme.addeditevent.AddEditEventActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="a990417f6f9d08531281f34e943909afd40c2a11" />
+
+        <activity android:name="com.firebase.ui.auth.twitter.TwitterPromptActivity" />
+
+        <meta-data
+            android:name="com.firebase.ui.TwitterKey"
+            android:value="zykIrbCNzaR5ksUrL45eauDgF" />
+        <meta-data
+            android:name="com.firebase.ui.TwitterSecret"
+            android:value="eIZGCxDcBQnBlerDaLWolUWiytR0SR8YqJz7VVzhuZrxnESy0p" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
