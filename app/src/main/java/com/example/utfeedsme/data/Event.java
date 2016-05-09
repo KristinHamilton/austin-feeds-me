@@ -16,6 +16,8 @@
 
 package com.example.utfeedsme.data;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 public final class Event {
     private String uid;
     private String title;
@@ -74,9 +76,11 @@ public final class Event {
         this.uid = uid;
     }
 
-//    public boolean isEmpty() {
-//        return (title == null || "".equals(title)) &&
-//                (description == null || "".equals(description));
-//    }
+    @JsonIgnore
+    public boolean isEmpty() {
+        return (uid == null || "".equals(uid)) &&
+                (title == null || "".equals(title)) &&
+                (description == null || "".equals(description));
+    }
 
 }

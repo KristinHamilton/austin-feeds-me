@@ -4,17 +4,15 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
 import com.example.utfeedsme.AustinFeedsMeApplication;
 import com.example.utfeedsme.R;
+import com.example.utfeedsme.addeditevent.AddEditEventContract.Presenter;
 import com.example.utfeedsme.addeditevent.AddEditEventContract.View;
-import com.example.utfeedsme.data.Event;
 import com.example.utfeedsme.data.EventsDataSource;
-import com.example.utfeedsme.data.EventsRepository;
 import com.firebase.client.Firebase;
 
 import javax.inject.Inject;
@@ -27,16 +25,18 @@ import butterknife.ButterKnife;
  */
 public class AddEditEventActivity extends AppCompatActivity implements View {
     @Inject Firebase firebase;
-    @Inject EventsRepository repository;
+    @Inject EventsDataSource repository;
 
-    @Bind(R.id.title_addeditevent_edittext)
+    @Bind(R.id.title_edit_text)
     EditText title;
-    @Bind(R.id.description_addeditevent_edittext)
+    @Bind(R.id.description_edit_text)
     EditText description;
     @Bind(R.id.save_addeditevent_button)
     Button saveButton;
     @Bind(R.id.add_edit_event_linear_layout)
     LinearLayout linearLayout;
+
+    private  Presenter addEditPresenter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -45,24 +45,17 @@ public class AddEditEventActivity extends AppCompatActivity implements View {
         setContentView(R.layout.activity_addeditevent);
         ButterKnife.bind(this);
 
+        addEditPresenter = new AddEditEventPresenter(null, repository, this);
+
         saveButton.setOnClickListener(new android.view.View.OnClickListener() {
             @Override
             public void onClick(android.view.View v) {
-
+                // Should probably put the auth check in the presenter
                 if (null != firebase.getAuth()) {
-                    repository.saveEvent(new Event(firebase.getAuth().getUid(),
-                            title.getText().toString(),
-                            description.getText().toString()), new EventsDataSource.SaveEventCallback() {
-                        @Override
-                        public void onEventSaved(boolean success) {
-                            Log.i("Woo", "Yay the event was saved: " + success);
-                        }
-
-                        @Override
-                        public void onError(String error) {
-
-                        }
-                    });
+                    addEditPresenter.createEvent(
+                            firebase.getAuth().getUid(),
+                            title.getText().toString().trim(),
+                            description.getText().toString());
                 } else {
                     Snackbar.make(linearLayout,
                             "You must be logged in to save an event", Snackbar.LENGTH_SHORT)
