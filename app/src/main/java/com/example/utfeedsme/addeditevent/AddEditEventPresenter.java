@@ -7,6 +7,7 @@ import android.util.Log;
 import com.example.utfeedsme.addeditevent.AddEditEventContract.Presenter;
 import com.example.utfeedsme.data.Event;
 import com.example.utfeedsme.data.EventsDataSource;
+import com.firebase.client.Firebase;
 
 
 /**
@@ -15,22 +16,26 @@ import com.example.utfeedsme.data.EventsDataSource;
 public class AddEditEventPresenter implements Presenter {
 
     private String mEventId;
+    private Firebase mFirebase;
     private EventsDataSource mEventsRepository;
     private AddEditEventContract.View mAddEditEventView;
 
-    public AddEditEventPresenter(@Nullable String taskId, @NonNull EventsDataSource eventsRepository,
-                                @NonNull AddEditEventContract.View addEventView) {
+    public AddEditEventPresenter(@Nullable String taskId, Firebase firebase,
+                                 @NonNull EventsDataSource eventsRepository,
+                                 @NonNull AddEditEventContract.View addEventView) {
         mEventId = taskId;
+        mFirebase = firebase;
         mEventsRepository = eventsRepository;
         mAddEditEventView = addEventView;
     }
 
     @Override
-    public void createEvent(String uid, String title, String description) {
-        Event newEvent = new Event(uid, title, description);
-        if (1 == 2) {
-            // Oopsy - Need basic details
+    public void createEvent(String title, String description) {
+
+        if (null == mFirebase.getAuth()) {
+            mAddEditEventView.showNotification("Please login to post an event");
         } else {
+            Event newEvent = new Event(mFirebase.getAuth().getUid(), title, description);
             mEventsRepository.saveEvent(newEvent, new EventsDataSource.SaveEventCallback() {
                 @Override
                 public void onEventSaved(boolean success) {

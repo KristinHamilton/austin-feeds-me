@@ -15,11 +15,13 @@ public interface AddEditEventContract {
 
         void setDescription(String description);
 
+        void showNotification(String notification);
+
     }
 
     interface Presenter {
 
-        void createEvent(String uid, String title, String description);
+        void createEvent(String title, String description);
 
     }
 }

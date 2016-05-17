@@ -45,25 +45,27 @@ public class AddEditEventActivity extends AppCompatActivity implements View {
         setContentView(R.layout.activity_addeditevent);
         ButterKnife.bind(this);
 
-        addEditPresenter = new AddEditEventPresenter(null, repository, this);
+        addEditPresenter = new AddEditEventPresenter(null, firebase, repository, this);
 
         saveButton.setOnClickListener(new android.view.View.OnClickListener() {
             @Override
             public void onClick(android.view.View v) {
-                // Should probably put the auth check in the presenter
-                if (null != firebase.getAuth()) {
                     addEditPresenter.createEvent(
-                            firebase.getAuth().getUid(),
                             title.getText().toString().trim(),
                             description.getText().toString());
-                } else {
-                    Snackbar.make(linearLayout,
-                            "You must be logged in to save an event", Snackbar.LENGTH_SHORT)
-                            .show();
-                }
-            }
-        });
+
+                }});
     }
+
+    @Override
+    public void showNotification(String notification) {
+        Snackbar.make(linearLayout,
+                notification, Snackbar.LENGTH_SHORT)
+                .show();
+
+    }
+
+    // "Stubs"
 
     @Override
     public void showEmptyTaskError() {
