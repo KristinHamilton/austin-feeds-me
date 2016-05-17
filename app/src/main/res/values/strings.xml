@@ -41,5 +41,8 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string name="title_hint">Event Title</string>
     <string name="description_hint">Event Description</string>
+    <string name="location_hint">Event Location</string>
+    <string name="date_hint">Event Date</string>
+    <string name="time_hint">Event Time</string>
 
 </resources>
