@@ -12,7 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TimePicker;
 
-import com.amicly.acaringtext.R;
+import com.example.utfeedsme.R;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -24,7 +24,7 @@ import java.util.GregorianCalendar;
 public class TimePickerFragment extends DialogFragment {
 
     public static final String EXTRA_TIME =
-            "com.amicly.acaringtext.time";
+            "com.example.utfeedsme.time";
 
     private static final String ARG_TIME = "time";
 

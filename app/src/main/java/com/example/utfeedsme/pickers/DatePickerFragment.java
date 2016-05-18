@@ -11,8 +11,7 @@ import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.DatePicker;
-
-import com.amicly.acaringtext.R;
+import com.example.utfeedsme.R;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -24,7 +23,7 @@ import java.util.GregorianCalendar;
 public class DatePickerFragment extends DialogFragment {
 
     public static final String EXTRA_DATE =
-            "com.amicly.acaringtext.date";
+            "com.example.utfeedsme.date";
 
     private static final String ARG_DATE = "date";
 
